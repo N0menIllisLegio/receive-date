@@ -7,7 +7,7 @@ namespace Date
     public class DayTimeClient : TcpClient
     {
         public static void GetNetworkTime()
-        {
+        {   
             const string ntpServer = "time.windows.com";
             
             var ntpData    = new byte[48];     
